@@ -18,16 +18,18 @@ public class Principal {
 			+ "convertir");
 			double valorRecibido = Double.parseDouble(input);
 			monedas.ConvertirMonedas(valorRecibido);
-			
-			int seleccion = JOptionPane.showConfirmDialog(null, "Deseas realizar"
-			+ " otra conversión?");
-			if (JOptionPane.OK_OPTION == seleccion) {
-				System.out.println("Selecciona opción Afirmativa");
-			}else {
-				JOptionPane.showMessageDialog(null, "Programa terminado");
-			}
 		}	
 		}
+		
+		int seleccion = JOptionPane.showConfirmDialog(null, "Deseas realizar"
+				+ " otra conversión?");
+		if (JOptionPane.OK_OPTION == seleccion) {
+			main(null);
+		}else {
+			JOptionPane.showMessageDialog(null, "Programa terminado");
+		}
 	}
+	
+	
 }
 	
