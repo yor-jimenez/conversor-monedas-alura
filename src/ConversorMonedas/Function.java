@@ -21,22 +21,22 @@ public class Function {
 			monedas.ConvertirPesosColombianosAEuro(ValorRecibido);
 			break;
 		case "De Pesos Colombianos a Libras":
-			monedas.ConvertirPesosColombianosADolar(ValorRecibido);
+			monedas.ConvertirPesosColombianosALibras(ValorRecibido);
 			break;
 		case "De Pesos Colombianos a Yen":
-			monedas.ConvertirPesosColombianosAEuro(ValorRecibido);
+			monedas.ConvertirPesosColombianosAYen(ValorRecibido);
 			break;
 		case "De Pesos Colombianos a Won Coreano":
-			monedas.ConvertirPesosColombianosADolar(ValorRecibido);
+			monedas.ConvertirPesosColombianosAWonCoreano(ValorRecibido);
 			break;
 		case "De Dólar a Pesos Colombianos":
-			monedas.ConvertirPesosColombianosAEuro(ValorRecibido);
+			monedas.ConvertirDolarAPesosColombianos(ValorRecibido);
 			break;
 		case "De Euro a Pesos Colombianos":
-			monedas.ConvertirPesosColombianosADolar(ValorRecibido);
+			monedas.ConvertirEuroAPesosColombianos(ValorRecibido);
 			break;
 		case "De Libras a Pesos Colombianos":
-			monedas.ConvertirPesosColombianosAEuro(ValorRecibido);
+			monedas.ConvertirLibrasAPesosColombianos(ValorRecibido);
 			break;
 		}
 	}

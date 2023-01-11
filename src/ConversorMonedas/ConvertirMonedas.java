@@ -8,7 +8,6 @@ public class ConvertirMonedas {
 		monedaDolar = (double) Math.round (monedaDolar * 100d)/100;
 		JOptionPane.showMessageDialog(null, "Tienes $" + monedaDolar + " Dolares");
 	}
-	
 	public void ConvertirPesosColombianosAEuro(double valorRecibido) {
 		double monedaEuro = valorRecibido / 5141.11;
 		monedaEuro = (double) Math.round (monedaEuro * 100d)/100;
@@ -32,6 +31,18 @@ public class ConvertirMonedas {
 	}
 	public void ConvertirDolarAPesosColombianos (double valorRecibido) {
 		double monedaPesosColombianos = valorRecibido / 4732.67;
+		monedaPesosColombianos = (double) Math.round (monedaPesosColombianos * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes $" + monedaPesosColombianos + 
+		" Pesos Colombianos");
+	}
+	public void ConvertirEuroAPesosColombianos (double valorRecibido) {
+		double monedaPesosColombianos = valorRecibido / 5090.91;
+		monedaPesosColombianos = (double) Math.round (monedaPesosColombianos * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes $" + monedaPesosColombianos + 
+		" Pesos Colombianos");
+	}
+	public void ConvertirLibrasAPesosColombianos (double valorRecibido) {
+		double monedaPesosColombianos = valorRecibido / 5749.5051;
 		monedaPesosColombianos = (double) Math.round (monedaPesosColombianos * 100d)/100;
 		JOptionPane.showMessageDialog(null, "Tienes $" + monedaPesosColombianos + 
 		" Pesos Colombianos");
